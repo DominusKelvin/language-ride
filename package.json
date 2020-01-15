@@ -1,0 +1,22 @@
+{
+  "name": "language-ride",
+  "version": "0.1.0",
+  "description": "Ride package for Atom",
+  "engines": {
+   "atom": "*",
+   "node": "*"
+  },
+  "homepage": "https://atom.github.io/language-ride",
+   "repository": {
+     "type": "git",
+     "url": "https://github.com/dominuskelvin/language-ride.git"
+   },
+ "bugs": {
+   "url": "https://github.com/dominuskelvin/language-ride/issues"
+  },
+  "keywords": [
+    "tree-sitter"
+  ],
+  "author": "Kelvin Omereshone",
+  "license": "ISC"
+}

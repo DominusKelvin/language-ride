@@ -1,0 +1,10 @@
+name: 'Ride'
+scopeName: 'source.ride'
+comment: 'Waves ride programming language'
+type: 'tree-sitter'
+parser: 'tree-sitter-ride'
+fileTypes: [
+  'ride'
+]
+comments:
+  start: '#'
