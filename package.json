@@ -18,5 +18,8 @@
     "tree-sitter"
   ],
   "author": "Kelvin Omereshone",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tree-sitter-ride": "^0.1.2"
+  }
 }
