@@ -6,5 +6,33 @@ parser: 'tree-sitter-ride'
 fileTypes: [
   'ride'
 ]
+
+limitLineLength: false
+
+patterns: [
+  {
+    comment: 'Ride comments'
+    name: 'comment.line.ride'
+    match: '#.*$'
+  }
+ {
+  comment: 'keywords that delimit flow conditionals'
+  name: 'keyword.control.conditional.ride'
+  match: '\\b(if|else\\if|else)\\b'
+  }
+  {
+    match: '<\\=|>\\=|\\=\\=|<|>|\\!\\='
+    name: 'keyword.operator.comparison.ride'
+  }
+  {
+    match: '\\='
+    name: 'keyword.operator.assignment.ride'
+  }
+  {
+    comment: 'keyword operators that evaluate to True or False'
+    match: '\\b(and|or)\\b'
+    name: 'keyword.operator.logical.ride'
+  }
+]
 comments:
   start: '#'
