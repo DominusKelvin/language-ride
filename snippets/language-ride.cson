@@ -1,0 +1,7 @@
+'.source.ride':
+  'if statement':
+    prefix: 'if'
+    body: """
+      if ${1:condition} then $2
+      else $3
+    """
